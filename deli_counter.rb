@@ -6,6 +6,7 @@ def line(katz_deli)
     katz_deli.collect do |deli|
     "The line is currently #{katz_deli.index(deli) + 1}. #{deli}"
   end
+  end
 end
 
 def take_a_number(katz_deli,name)
