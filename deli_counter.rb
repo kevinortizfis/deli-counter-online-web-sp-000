@@ -5,7 +5,6 @@ def line(katz_deli)
   else
     katz_deli.map{|deli| "#{katz_deli.index(deli) + 1}. #{deli}"}
   end
-  puts katz_deli
 end
 
 def take_a_number(katz_deli,name)
