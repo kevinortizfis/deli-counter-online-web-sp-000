@@ -4,7 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.collect do |deli|
-    "#{katz_deli.index(deli) + 1}. #{deli}"
+    "The line is currently #{katz_deli.index(deli) + 1}. #{deli}"
     puts katz_deli
   end
 end
