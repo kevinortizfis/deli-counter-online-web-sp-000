@@ -6,7 +6,7 @@ def line(katz_deli)
     katz_deli.collect do |deli|
       "#{katz_deli.index(deli) + 1}. #{deli}"
     end
-    puts "The line is currently: " + queue.join(" ")
+    puts "The line is currently: " + katz_deli.join(" ")
   end
 end
 
