@@ -4,8 +4,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     queue = []
-    katz_deli.each do |deli|
-      queue << "#{katz_deli.index(deli) + 1}. #{deli}"
+    katz_deli.collect do |deli|
+      "#{katz_deli.index(deli) + 1}. #{deli}"
     end
     puts "The line is currently: " + queue.join(" ")
   end
