@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.collect {|deli| "#{katz_deli.index(deli) + 1}. #{deli}"}
+    katz_deli.collect{|deli| "iaefnofin"}
     puts "The line is currently: " + katz_deli.join(" ")
   end
 end
